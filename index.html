@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <!-- start -->
+    <div class="start">
+
+<!-- Button start  -->
+    <div class="start-game">
+        <span>Start Game</span>
+    </div>
+
+<!-- your Name -->
+
+<div class="ur-name close">
+    <form action="">
+        <p> your name :</p>
+    <input type="text" >
+
+    <label for="easy">Easy</label>
+    <input type="radio" name="level" value="easy" id="easy">
+
+    <label for="medium">Medium</label>
+    <input type="radio" name="level"  value="medium" id="medium" checked>
+
+    <label for="hard">Hard</label>
+    <input type="radio" name="level" value="hard" id="hard">
+
+
+
+    <input type="submit" value="Start" id="buttonStart-2">
+
+</form>
+</div>
+</div>
+    <div class="info">
+
+        <div class="name">
+            Hello: <span></span>
+        </div>
+
+        <div class="time">
+           Time 0:<span>59</span>
+        </div>
+
+        <div class="tries">
+           <span> 0 </span> / 10
+        </div>
+
+        <div class="wrong-tries ">
+            wrong tries : <span>0</span>/25
+        </div>
+    </div>
+
+   <div class="game-blocks ">
+
+   
+    <div class="game-block " data-animal="one">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a1.jpg" alt="">
+    </div>
+</div>
+
+    <div class="game-block" data-animal="one">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a1.jpg" alt="">
+    </div>
+</div>
+    <div class="game-block" data-animal="two">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a2.jpg" alt="">
+    </div>
+</div>
+
+    <div class="game-block" data-animal="two">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a2.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="three">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a3.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="three">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a3.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="four">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a4.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="four">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a4.jpg" alt="">
+    </div></div>
+
+
+    <div class="game-block" data-animal="five">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a5.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="five">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a5.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="six">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a6.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="six">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a6.jpg" alt="">
+    </div></div>
+
+
+    <div class="game-block" data-animal="seven">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a7.jpg" alt="">
+    </div></div>
+
+
+    <div class="game-block" data-animal="seven">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a7.jpg" alt="">
+    </div></div>
+
+
+    <div class="game-block" data-animal="eight">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a8.jpg" alt="">
+    </div></div>
+
+
+    <div class="game-block" data-animal="eight">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a8.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="nine">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a9.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="nine">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a9.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="ten">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a10.jpg" alt="">
+    </div></div>
+
+    <div class="game-block" data-animal="ten">
+        <div class="face front"></div>
+        <div class="face back">
+        <img src="images/a10.jpg" alt="">
+    </div>
+    </div>
+   </div>
+
+   <div class="win close" >
+   
+    <h2>You Win</h2>
+<a type="Button" class="playAgain-win" href="index.html">Play Again</a>  
+
+   </div>
+
+   <div class="lost close" >
+    <h2>Game Over</h2>
+<a class="playAgain-lost" href="index.html">play Again </a>
+   </div>
+
+
+   <span class="bk-win close"></span>
+   <span class="bk-lost close"></span>
+
+    <script src="main.js"></script>
+</body>
+</html>
